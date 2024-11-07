@@ -4,7 +4,7 @@ form.addEventListener("submit", (e) => {
   const password = document.querySelector("#password").value;
   if (username === "admin" && password === "admin") {
     alert("Login successful");
-    location.href = "";
+    
   } else {
     alert("Login failed");
   }
