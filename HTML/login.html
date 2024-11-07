@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="/Test_AIML_A_2200321530176/CSS/login.css">
+    
 </head>
 <body>
     <div class="login-container">
@@ -22,18 +23,6 @@
             </div>
         </form>
     </div>
-    <script>
-        const form = document.querySelector('form');
-        form.addEventListener('submit', (e) => {
-            const username = document.querySelector('#username').value;
-            const password = document.querySelector('#password').value;
-            if (username === 'admin' && password === 'admin') {
-                alert('Login successful');
-                location.href = 'curencyConverter.html';
-            } else {
-                alert('Login failed');
-            }
-        });
-    </script>
+    <script src="/Test_AIML_A_2200321530176/JS/login.js"></script>
 </body>
 </html>
